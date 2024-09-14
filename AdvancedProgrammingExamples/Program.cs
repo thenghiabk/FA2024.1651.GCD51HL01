@@ -77,11 +77,11 @@ namespace AdvancedProgrammingExamples
             
         }
 
-        public GraduateStudent(string name, string researchTopic) : base (name) // 1
+        public GraduateStudent(string name, string researchTopic) : base (name) // step 1
         {
             
            
-            // 2
+            // step 2
             this.researchTopic = researchTopic;
         }
 
@@ -96,13 +96,22 @@ namespace AdvancedProgrammingExamples
         {
             Console.WriteLine("Hello World");
 
-            UndergraduteStudent student1 = new UndergraduteStudent("John");
-            GraduateStudent student2 = new GraduateStudent("David", "IoT");
+            UndergraduteStudent student1 = new UndergraduteStudent(1, "John", 22, "0123456789", "658 Ngo Quyen");
+            GraduateStudent student2 = new GraduateStudent(2, "David", 30, "0123789456", "658 Ngo Quyen", "IoT");
 
+            Console.WriteLine(student1.Id);
             Console.WriteLine(student1.Name);
-            Console.WriteLine(student2.Name);
+            Console.WriteLine(student1.Age);
+            Console.WriteLine(student1.Phone);
+            Console.WriteLine(student1.Address);
 
-
+            Console.WriteLine(student1.Id);
+            Console.WriteLine(student1.Name);
+            Console.WriteLine(student1.Age);
+            Console.WriteLine(student1.Phone);
+            Console.WriteLine(student1.Address);
+            Console.WriteLine(student1.ResearchTopic);
+            Console.WriteLine(student1.Deadline);
 
         }
     }
