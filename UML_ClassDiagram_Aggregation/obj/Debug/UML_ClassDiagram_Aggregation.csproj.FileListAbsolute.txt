@@ -1,0 +1,7 @@
+E:\Workspace\VSRepos\1651-AdvancedProgramming-GCD51HL01\UML_ClassDiagram_Aggregation\bin\Debug\UML_ClassDiagram_Aggregation.exe.config
+E:\Workspace\VSRepos\1651-AdvancedProgramming-GCD51HL01\UML_ClassDiagram_Aggregation\bin\Debug\UML_ClassDiagram_Aggregation.exe
+E:\Workspace\VSRepos\1651-AdvancedProgramming-GCD51HL01\UML_ClassDiagram_Aggregation\bin\Debug\UML_ClassDiagram_Aggregation.pdb
+E:\Workspace\VSRepos\1651-AdvancedProgramming-GCD51HL01\UML_ClassDiagram_Aggregation\obj\Debug\UML_ClassDiagram_Aggregation.csproj.AssemblyReference.cache
+E:\Workspace\VSRepos\1651-AdvancedProgramming-GCD51HL01\UML_ClassDiagram_Aggregation\obj\Debug\UML_ClassDiagram_Aggregation.csproj.CoreCompileInputs.cache
+E:\Workspace\VSRepos\1651-AdvancedProgramming-GCD51HL01\UML_ClassDiagram_Aggregation\obj\Debug\UML_ClassDiagram_Aggregation.exe
+E:\Workspace\VSRepos\1651-AdvancedProgramming-GCD51HL01\UML_ClassDiagram_Aggregation\obj\Debug\UML_ClassDiagram_Aggregation.pdb

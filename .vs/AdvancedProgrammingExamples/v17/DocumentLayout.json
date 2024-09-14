@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Workspace\\VSRepos\\AdvancedProgrammingExamples\\",
+  "WorkspaceRootPath": "E:\\Workspace\\VSRepos\\1651-AdvancedProgramming-GCD51HL01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D8C053E4-85DE-4A79-9A80-B1100557441D}|AdvancedProgrammingExamples\\AdvancedProgrammingExamples.csproj|e:\\workspace\\vsrepos\\advancedprogrammingexamples\\advancedprogrammingexamples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D8C053E4-85DE-4A79-9A80-B1100557441D}|AdvancedProgrammingExamples\\AdvancedProgrammingExamples.csproj|e:\\workspace\\vsrepos\\1651-advancedprogramming-gcd51hl01\\advancedprogrammingexamples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8C053E4-85DE-4A79-9A80-B1100557441D}|AdvancedProgrammingExamples\\AdvancedProgrammingExamples.csproj|solutionrelative:advancedprogrammingexamples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B527BD-7E73-4E0C-8C18-BF5C67753927}|UML_ClassDiagram_Aggregation\\UML_ClassDiagram_Aggregation.csproj|e:\\workspace\\vsrepos\\1651-advancedprogramming-gcd51hl01\\uml_classdiagram_aggregation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4B527BD-7E73-4E0C-8C18-BF5C67753927}|UML_ClassDiagram_Aggregation\\UML_ClassDiagram_Aggregation.csproj|solutionrelative:uml_classdiagram_aggregation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F802580-B22C-4138-9551-FAE1C7B09F68}|UML_ClassDiagram_Composition\\UML_ClassDiagram_Composition.csproj|e:\\workspace\\vsrepos\\1651-advancedprogramming-gcd51hl01\\uml_classdiagram_composition\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F802580-B22C-4138-9551-FAE1C7B09F68}|UML_ClassDiagram_Composition\\UML_ClassDiagram_Composition.csproj|solutionrelative:uml_classdiagram_composition\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 220,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Workspace\\VSRepos\\1651-AdvancedProgramming-GCD51HL01\\UML_ClassDiagram_Aggregation\\Program.cs",
+              "RelativeDocumentMoniker": "UML_ClassDiagram_Aggregation\\Program.cs",
+              "ToolTip": "E:\\Workspace\\VSRepos\\1651-AdvancedProgramming-GCD51HL01\\UML_ClassDiagram_Aggregation\\Program.cs",
+              "RelativeToolTip": "UML_ClassDiagram_Aggregation\\Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA8wB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T04:02:17.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Workspace\\VSRepos\\1651-AdvancedProgramming-GCD51HL01\\UML_ClassDiagram_Composition\\Program.cs",
+              "RelativeDocumentMoniker": "UML_ClassDiagram_Composition\\Program.cs",
+              "ToolTip": "E:\\Workspace\\VSRepos\\1651-AdvancedProgramming-GCD51HL01\\UML_ClassDiagram_Composition\\Program.cs",
+              "RelativeToolTip": "UML_ClassDiagram_Composition\\Program.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAcwC4AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T03:54:03.361Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Workspace\\VSRepos\\AdvancedProgrammingExamples\\AdvancedProgrammingExamples\\Program.cs",
+              "DocumentMoniker": "E:\\Workspace\\VSRepos\\1651-AdvancedProgramming-GCD51HL01\\AdvancedProgrammingExamples\\Program.cs",
               "RelativeDocumentMoniker": "AdvancedProgrammingExamples\\Program.cs",
-              "ToolTip": "E:\\Workspace\\VSRepos\\AdvancedProgrammingExamples\\AdvancedProgrammingExamples\\Program.cs",
+              "ToolTip": "E:\\Workspace\\VSRepos\\1651-AdvancedProgramming-GCD51HL01\\AdvancedProgrammingExamples\\Program.cs",
               "RelativeToolTip": "AdvancedProgrammingExamples\\Program.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAmwEIAAAAVAAAA",
+              "ViewState": "AQIAADsAAAAAAAAAAAA8wFIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-11T06:30:13.142Z",
               "EditorCaption": ""

@@ -11,14 +11,16 @@ namespace AdvancedProgrammingExamples
         private int id;
         private string address;
         private int age;
+        private string phone;
 
         // properties
+
         public int Age
         {
             get => age;
             set
             {
-                if (value < 0)
+                if (value < 0) // data validation
                 {
                     throw new ArgumentOutOfRangeException();
                 }
@@ -44,6 +46,11 @@ namespace AdvancedProgrammingExamples
             }
         }
 
+        public string Phone {
+            get { return phone; }
+            set { phone = value; }        
+        }
+
         // constuctor
         public UndergraduteStudent()
         {
@@ -54,9 +61,19 @@ namespace AdvancedProgrammingExamples
         {
             this.name = name;
         }
+        // (1, "John", 22, "0123456789", "658 Ngo Quyen")
+        public UndergraduteStudent(int id, string name, int age, string phone, string address)
+        {
+            this.Id = id;
+            this.Name = name;
+            this.Age = age;
+            this.Phone = phone;
+            this.Address = address;
+        }
+
 
         // methods
-        
+
     }
 
     class GraduateStudent : UndergraduteStudent
@@ -84,6 +101,12 @@ namespace AdvancedProgrammingExamples
             // step 2
             this.researchTopic = researchTopic;
         }
+        // (2, "David", 30, "0123789456", "658 Ngo Quyen", "IoT")
+        public GraduateStudent(int id, string name, int age, string phone, string address, string researchTopic ) 
+            : base(id, name, age, phone, address)
+        {
+            this.ResearchTopic = researchTopic;
+        }
 
         // methods
 
@@ -105,13 +128,12 @@ namespace AdvancedProgrammingExamples
             Console.WriteLine(student1.Phone);
             Console.WriteLine(student1.Address);
 
-            Console.WriteLine(student1.Id);
-            Console.WriteLine(student1.Name);
-            Console.WriteLine(student1.Age);
-            Console.WriteLine(student1.Phone);
-            Console.WriteLine(student1.Address);
-            Console.WriteLine(student1.ResearchTopic);
-            Console.WriteLine(student1.Deadline);
+            Console.WriteLine(student2.Id);
+            Console.WriteLine(student2.Name);
+            Console.WriteLine(student2.Age);
+            Console.WriteLine(student2.Phone);
+            Console.WriteLine(student2.Address);
+            Console.WriteLine(student2.ResearchTopic);
 
         }
     }

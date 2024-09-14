@@ -5,3 +5,10 @@ E:\Workspace\VSRepos\AdvancedProgrammingExamples\AdvancedProgrammingExamples\obj
 E:\Workspace\VSRepos\AdvancedProgrammingExamples\AdvancedProgrammingExamples\obj\Debug\AdvancedProgrammingExamples.csproj.CoreCompileInputs.cache
 E:\Workspace\VSRepos\AdvancedProgrammingExamples\AdvancedProgrammingExamples\obj\Debug\AdvancedProgrammingExamples.exe
 E:\Workspace\VSRepos\AdvancedProgrammingExamples\AdvancedProgrammingExamples\obj\Debug\AdvancedProgrammingExamples.pdb
+E:\Workspace\VSRepos\1651-AdvancedProgramming-GCD51HL01\AdvancedProgrammingExamples\obj\Debug\AdvancedProgrammingExamples.csproj.AssemblyReference.cache
+E:\Workspace\VSRepos\1651-AdvancedProgramming-GCD51HL01\AdvancedProgrammingExamples\obj\Debug\AdvancedProgrammingExamples.csproj.CoreCompileInputs.cache
+E:\Workspace\VSRepos\1651-AdvancedProgramming-GCD51HL01\AdvancedProgrammingExamples\obj\Debug\AdvancedProgrammingExamples.exe
+E:\Workspace\VSRepos\1651-AdvancedProgramming-GCD51HL01\AdvancedProgrammingExamples\obj\Debug\AdvancedProgrammingExamples.pdb
+E:\Workspace\VSRepos\1651-AdvancedProgramming-GCD51HL01\AdvancedProgrammingExamples\bin\Debug\AdvancedProgrammingExamples.exe.config
+E:\Workspace\VSRepos\1651-AdvancedProgramming-GCD51HL01\AdvancedProgrammingExamples\bin\Debug\AdvancedProgrammingExamples.exe
+E:\Workspace\VSRepos\1651-AdvancedProgramming-GCD51HL01\AdvancedProgrammingExamples\bin\Debug\AdvancedProgrammingExamples.pdb

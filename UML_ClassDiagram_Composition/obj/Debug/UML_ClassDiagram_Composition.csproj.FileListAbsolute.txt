@@ -1,0 +1,7 @@
+E:\Workspace\VSRepos\1651-AdvancedProgramming-GCD51HL01\UML_ClassDiagram_Composition\bin\Debug\UML_ClassDiagram_Composition.exe.config
+E:\Workspace\VSRepos\1651-AdvancedProgramming-GCD51HL01\UML_ClassDiagram_Composition\bin\Debug\UML_ClassDiagram_Composition.exe
+E:\Workspace\VSRepos\1651-AdvancedProgramming-GCD51HL01\UML_ClassDiagram_Composition\bin\Debug\UML_ClassDiagram_Composition.pdb
+E:\Workspace\VSRepos\1651-AdvancedProgramming-GCD51HL01\UML_ClassDiagram_Composition\obj\Debug\UML_ClassDiagram_Composition.csproj.AssemblyReference.cache
+E:\Workspace\VSRepos\1651-AdvancedProgramming-GCD51HL01\UML_ClassDiagram_Composition\obj\Debug\UML_ClassDiagram_Composition.csproj.CoreCompileInputs.cache
+E:\Workspace\VSRepos\1651-AdvancedProgramming-GCD51HL01\UML_ClassDiagram_Composition\obj\Debug\UML_ClassDiagram_Composition.exe
+E:\Workspace\VSRepos\1651-AdvancedProgramming-GCD51HL01\UML_ClassDiagram_Composition\obj\Debug\UML_ClassDiagram_Composition.pdb
