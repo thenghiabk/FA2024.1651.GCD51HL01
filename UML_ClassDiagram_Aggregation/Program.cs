@@ -44,6 +44,7 @@ namespace UML_ClassDiagram_Aggregation
         static void Main(string[] args)
         {
             University myUniversity = new University();
+
             Student student1 = new Student("John");
             Student student2 = new Student("Jane");
 
@@ -54,6 +55,7 @@ namespace UML_ClassDiagram_Aggregation
 
             // Even if the university is destroyed, the students still exist
             myUniversity = null;
+
             Console.WriteLine(student1.Name); // John
             Console.WriteLine(student2.Name); // Jane
         }

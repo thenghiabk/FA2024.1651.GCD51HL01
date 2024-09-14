@@ -45,6 +45,7 @@ namespace UML_ClassDiagram_Composition
             Car myCar = new Car();
             myCar.StartCar(); // Engine started!
             myCar.StopCar(); // Engine stopped!
+            myCar = null;
         }
     }
 }

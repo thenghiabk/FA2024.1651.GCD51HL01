@@ -3,18 +3,32 @@ using System.Collections;
 
 namespace AdvancedProgrammingExamples
 {
-    
-    class UndergraduteStudent
+    abstract class Person
     {
         // data
         private string name;
-        private int id;
         private string address;
         private int age;
-        private string phone;
+
+        //constructor
+        public Person() { }
+        public Person(string name) {
+            this.Name = name;
+
+        }
+        public Person(string name, string address, int age) {
+            this.Name = name;
+            this.age = age;
+            this.address = address;
+        }
+
 
         // properties
-
+        public string Name
+        {
+            get { return name; }
+            private set { name = value; }
+        }
         public int Age
         {
             get => age;
@@ -28,52 +42,64 @@ namespace AdvancedProgrammingExamples
                 age = value;
             }
         }
-        public string Name { 
-            get { return name; } 
-            private set { name = value; }
-        }
-
-        public int Id
-        {
-            get { return id; }
-            private set { id = value; }
-        }
         public string Address
         {
             get { return address; }
-            set { 
-                address = value.ToUpper(); 
+            set
+            {
+                address = value.ToUpper();
             }
         }
+
+        // methods
+        public abstract void greets();
+    }
+
+    class UndergraduteStudent : Person
+    {
+        // data
+        private int studentId;
+        private string phone;
+        private string subject;
+
+        // properties
+        public int StudentId
+        {
+            get { return studentId; }
+            private set { studentId = value; }
+        }        
 
         public string Phone {
             get { return phone; }
             set { phone = value; }        
         }
 
+        public string Subject { get => subject; set => subject = value; }
+
         // constuctor
-        public UndergraduteStudent()
+        public UndergraduteStudent() : base("Unknown")
         {
-            this.name = "Unknown";
+
         }
 
-        public UndergraduteStudent(string name)
+        public UndergraduteStudent(string name) : base(name)
         {
-            this.name = name;
+
         }
         // (1, "John", 22, "0123456789", "658 Ngo Quyen")
-        public UndergraduteStudent(int id, string name, int age, string phone, string address)
+        public UndergraduteStudent(int id, string name, int age, string phone, string address, string subject)
+            : base(name, address, age)
         {
-            this.Id = id;
-            this.Name = name;
-            this.Age = age;
+            this.StudentId = id;
             this.Phone = phone;
-            this.Address = address;
+            this.Subject = subject;
         }
 
-
         // methods
-
+        public override void greets()
+        {
+            Console.WriteLine($"Hello. I'm {this.Name}. I'm an undergraduate student.");
+        }
     }
 
     class GraduateStudent : UndergraduteStudent
@@ -102,13 +128,17 @@ namespace AdvancedProgrammingExamples
             this.researchTopic = researchTopic;
         }
         // (2, "David", 30, "0123789456", "658 Ngo Quyen", "IoT")
-        public GraduateStudent(int id, string name, int age, string phone, string address, string researchTopic ) 
-            : base(id, name, age, phone, address)
+        public GraduateStudent(int id, string name, int age, string phone, string address, string subject, string researchTopic ) 
+            : base(id, name, age, phone, address, subject)
         {
             this.ResearchTopic = researchTopic;
         }
 
         // methods
+        public override void greets()
+        {
+            Console.WriteLine($"Hello guys. I'm {this.Name}. I'm a graduate student.");
+        }
 
     }
 
@@ -119,21 +149,31 @@ namespace AdvancedProgrammingExamples
         {
             Console.WriteLine("Hello World");
 
-            UndergraduteStudent student1 = new UndergraduteStudent(1, "John", 22, "0123456789", "658 Ngo Quyen");
-            GraduateStudent student2 = new GraduateStudent(2, "David", 30, "0123789456", "658 Ngo Quyen", "IoT");
+            //Person person = new Person(); // error due to abstract class
 
-            Console.WriteLine(student1.Id);
+            UndergraduteStudent student1 = new UndergraduteStudent(1, "John", 22, "0123456789", "658 Ngo Quyen", "Math");
+
+            GraduateStudent student2 = new GraduateStudent(2, "David", 30, "0123789456", "658 Ngo Quyen", "English", "IoT");
+
+            student1.greets();
+
+            student2.greets();
+
+
+            /*Console.WriteLine(student1.StudentId);
             Console.WriteLine(student1.Name);
             Console.WriteLine(student1.Age);
             Console.WriteLine(student1.Phone);
             Console.WriteLine(student1.Address);
+            Console.WriteLine(student1.Subject);
 
-            Console.WriteLine(student2.Id);
+            Console.WriteLine(student2.StudentId);
             Console.WriteLine(student2.Name);
             Console.WriteLine(student2.Age);
             Console.WriteLine(student2.Phone);
             Console.WriteLine(student2.Address);
-            Console.WriteLine(student2.ResearchTopic);
+            Console.WriteLine(student2.Subject);
+            Console.WriteLine(student2.ResearchTopic);*/
 
         }
     }

@@ -15,6 +15,7 @@ namespace UML_ClassDiagram_Association
             Name = name;
             Department = department;
         }
+        // methods
         public void CheckUp(Patient patient)
         {
             Console.WriteLine($"The doctor `{this.Name}` is checking up for the patient `{patient.Name}`");
@@ -30,6 +31,7 @@ namespace UML_ClassDiagram_Association
             Name = name;
             Address = address;
         }
+        // methods
         public void GoToCheckUp(Doctor doctor)
         {
             Console.WriteLine($"The patient `{this.Name}` is checked up by the doctor `{doctor.Name}`");
@@ -42,7 +44,9 @@ namespace UML_ClassDiagram_Association
         {
             Doctor doctor = new Doctor("John Doe", "Plastic Surgery");
             Patient patient = new Patient("Nancy", "658 Ngo Quyen");
+
             doctor.CheckUp(patient);
+
             patient.GoToCheckUp(doctor);
         }
     }
