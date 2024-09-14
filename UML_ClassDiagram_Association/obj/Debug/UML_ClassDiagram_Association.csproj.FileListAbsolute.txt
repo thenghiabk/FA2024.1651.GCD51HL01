@@ -1,0 +1,7 @@
+E:\Workspace\VSRepos\AdvancedProgrammingExamples\UML_ClassDiagram_Association\bin\Debug\UML_ClassDiagram_Association.exe.config
+E:\Workspace\VSRepos\AdvancedProgrammingExamples\UML_ClassDiagram_Association\bin\Debug\UML_ClassDiagram_Association.exe
+E:\Workspace\VSRepos\AdvancedProgrammingExamples\UML_ClassDiagram_Association\bin\Debug\UML_ClassDiagram_Association.pdb
+E:\Workspace\VSRepos\AdvancedProgrammingExamples\UML_ClassDiagram_Association\obj\Debug\UML_ClassDiagram_Association.csproj.AssemblyReference.cache
+E:\Workspace\VSRepos\AdvancedProgrammingExamples\UML_ClassDiagram_Association\obj\Debug\UML_ClassDiagram_Association.csproj.CoreCompileInputs.cache
+E:\Workspace\VSRepos\AdvancedProgrammingExamples\UML_ClassDiagram_Association\obj\Debug\UML_ClassDiagram_Association.exe
+E:\Workspace\VSRepos\AdvancedProgrammingExamples\UML_ClassDiagram_Association\obj\Debug\UML_ClassDiagram_Association.pdb
