@@ -1,0 +1,7 @@
+E:\Workspace\VSRepos\1651-AdvancedProgramming-GCD51HL01\LibraryCatalog\bin\Debug\LibraryCatalog.exe.config
+E:\Workspace\VSRepos\1651-AdvancedProgramming-GCD51HL01\LibraryCatalog\bin\Debug\LibraryCatalog.exe
+E:\Workspace\VSRepos\1651-AdvancedProgramming-GCD51HL01\LibraryCatalog\bin\Debug\LibraryCatalog.pdb
+E:\Workspace\VSRepos\1651-AdvancedProgramming-GCD51HL01\LibraryCatalog\obj\Debug\LibraryCatalog.csproj.AssemblyReference.cache
+E:\Workspace\VSRepos\1651-AdvancedProgramming-GCD51HL01\LibraryCatalog\obj\Debug\LibraryCatalog.csproj.CoreCompileInputs.cache
+E:\Workspace\VSRepos\1651-AdvancedProgramming-GCD51HL01\LibraryCatalog\obj\Debug\LibraryCatalog.exe
+E:\Workspace\VSRepos\1651-AdvancedProgramming-GCD51HL01\LibraryCatalog\obj\Debug\LibraryCatalog.pdb
